@@ -1,0 +1,7 @@
+.child {
+    background-color: lightcoral;
+}
+/* odd children selection */
+.child.child:nth-child(2n+1) {
+    background-color: lightsalmon;
+}
