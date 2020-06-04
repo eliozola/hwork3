@@ -8,7 +8,7 @@ html {
 body {
     font-family: monospace;
     font-weight: bold;
-    background-color: grey;
+    background-color: linen;
  
 }
 
@@ -160,31 +160,31 @@ main h1{
     
     #btnOne {
         background-color: white; 
-        color: black; 
+        color: rgb(86, 91, 97);
         border: 5px solid #4CAF50;
       }
       
     #btnTwo {
         background-color: white; 
-        color: black; 
+        color: rgb(86, 91, 97);
         border: 5px solid #008CBA;
       }
       
     #btnThree {
         background-color: white; 
-        color: black; 
+        color: rgb(86, 91, 97);
         border: 5px solid #f44336;
       }
       
     #btnFour {
         background-color: white;
-        color: black;
+        color: rgb(86, 91, 97);
         border: 5px solid #febf04;
       }
       
     #btnFive {
         background-color: white;
-        color: black;
+        color: rgb(86, 91, 97);
         border: 5px solid #a5c956;
       }
 
