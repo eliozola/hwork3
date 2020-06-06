@@ -99,7 +99,8 @@ main h1{
     min-height: 100px;
     font-size: 1.5em;
     border-radius:4px;
-    border:1px solid #bbb;
+    border:1px solid #FFC2AA;
+    background-color: #FFC2AA;
 
     /*transition: all 0.3s linear;
     background: linear-gradient(to top, #F3AAAA 0%,#febf04 100%); /* W3C */
@@ -120,7 +121,7 @@ main h1{
     min-height: 100px;
     font-size: 1.5em;
     border-radius:4px;
-    border:1px solid #bbb;
+    border:1px solid lightgray; 
 
    /* transition: all 0.3s linear;
     background: linear-gradient(to top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
