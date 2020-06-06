@@ -40,14 +40,15 @@ main h1{
     #container {
         grid-template-columns: 1fr 1fr;
     }
+}
 
-    .navContainer {
+   /* .navContainer {
         width: 100%;
         min-height: 400px;
         flex-wrap: wrap;
         flex-direction: column;
-    }
-}    
+    }*/
+ 
 
 /* FIZBUZ class */
 
@@ -106,6 +107,7 @@ main h1{
     background: linear-gradient(to top, #F3AAAA 0%,#febf04 100%); /* W3C */
 }
 
+/*
 .buz:hover {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
@@ -132,6 +134,7 @@ main h1{
 
 /* Navigation */
 
+/*
 .navContainer {
     width: 100%;
     height: 80px;
@@ -192,4 +195,4 @@ main h1{
 .hidden {
     display: none;
 
-}
+} */
