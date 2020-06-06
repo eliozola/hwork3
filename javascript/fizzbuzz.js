@@ -93,7 +93,7 @@ create();
     };
 
 // Buttons RESET and REFRESH
-
+/*
     btnOne.onclick = function() {
         inputMin.value = "";
         inputMax.value = "";
@@ -109,7 +109,7 @@ create();
 
 
 // JQuery scripts for selecting divs according to class:
-
+/*
     $(document).ready(function(){ $("#btnThree").click(function(){ 
         $(".num, .buz, .fizbuz").toggle();
       });
