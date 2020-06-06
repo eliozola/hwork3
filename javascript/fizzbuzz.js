@@ -1,5 +1,8 @@
 const main = document.getElementById("container");
-/*const inputMin = document.getElementById("minInput");
+
+
+
+/*const inputMin = document.getElementById("minInput"); mby delete those from top 
     const inputMax = document.getElementById("maxInput");
     
     
@@ -30,7 +33,7 @@ const create = function () {            //Creating function that will generate 1
         
             if (i % 3 === 0 && i % 5 === 0) {                              
                 newPar.appendChild(document.createTextNode(i + ' = FIZZ BUZZ'));
-                main.appendChild(newDiv).setAttribute("class", "fizbuz");   // this adds class to divs
+                main.appendChild(newDiv).setAttribute("class", "fizbuzz");   // this adds class to divs
 
             } else if (i % 3 === 0) {
                 newPar.appendChild(document.createTextNode(i + ' = FIZZ'));
@@ -52,15 +55,15 @@ create();
  
 //This adds event to first INPUT - sets min value.
 
-    inputMin.onkeyup = function (e) {
-        this.value = inputMin.value.replace(/^(0*)/, "");
+inputMin.onkeyup = function (e) {
+this.value = inputMin.value.replace(/^(0*)/, "");
         if (inputMin.value >= 1 && inputMin.value <= 100) {
             this.value = inputMin.value;
         } else if (inputMin.value.length === 0) {
             inputMin.value = null;
         } else {
             inputMin.value = null;
-            alert("Incorrect number!");
+            alert("Unsuitable number!");
         }
         if (!((e.keyCode > 95 && e.keyCode < 106)
             || (e.keyCode > 47 && e.keyCode < 58)
@@ -73,8 +76,8 @@ create();
     
 //This adds event to second INPUT - sets max value.
 
-    inputMax.onkeyup = function (e) {
-        this.value = inputMax.value.replace(/^(0*)/, "");
+inputMax.onkeyup = function (e) {
+this.value = inputMax.value.replace(/^(0*)/, "");
         if (inputMax.value >= 1 && inputMax.value <= 100) {
             this.value = inputMax.value;
         } else if (inputMax.value.length === 0) {
@@ -82,7 +85,7 @@ create();
             
         } else {
             inputMax.value = null;
-            alert("Incorrect number!");
+            alert("Unsuitable number!");
         }
         if (!((e.keyCode > 95 && e.keyCode < 106)
             || (e.keyCode > 47 && e.keyCode < 58)

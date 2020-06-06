@@ -29,12 +29,12 @@ main h1{
     
 }
 
-#container p {
+/*#container p {
     margin: 0;
     padding: 0;
     text-align: center;
   
-}
+} */
 
 @media (max-width: 576px) {
     #container {
@@ -52,7 +52,7 @@ main h1{
 
 /* FIZBUZ class */
 
-.fizbuz {
+.fizbuzz {
     display: flex;
     align-items: center;
     justify-content: center;
